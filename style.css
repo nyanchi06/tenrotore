@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: #96514d;
+    margin: 0px;
+    font-family: source-han-sans-cjk-ja,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #507ea4;
+    padding: 5% 0%;
+
+}
+
+.メニュー {
+    font-size: 2.5vw;
+    letter-spacing: 1px;
+    word-spacing: 1em;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.box1 {
+    background-color: white;
+    padding-bottom: 38%;
+}
+
+.メイン {
+ padding-top: 15%
+}
+
+ 
+
+.タイトル {
+    text-align: center;
+    font-size: 7.5vw;
+    font-family: ccmonstermash,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px; 
+    margin-top: 20%;
+}
+
+
+.タイトル1 {
+    font-size: 7.5vw;
+    font-family: ccmonstermash,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px; 
+    margin: 20% 38% 0% 38%;
+}
+
+.タイトル2 {
+    font-size: 7.5vw;
+    font-family: ccmonstermash,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px; 
+    margin: 20% 42% 0% 42%;
+}
+
+
+.サブタイトル {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 7%;
+    
+}
+
+.文字1{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 5%;
+}
+
+.文字2 {
+   font-size: 0.75em;
+   margin: 0% 20% 8% 20%;
+   line-height: 2;
+}
+
+.イラスト {
+    text-align: center;
+}
+
+.作品集 {
+    text-align: center;
+    margin: 15% 0% 8% 0%;
+}
+
+.ツイッター {
+    text-align: center;
+    margin: 8% 0% 8% 0%;
+}
+
+.詳細 {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.地図 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+.box{
+    margin: 2em;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    z-index: -1;
+    text-align: center;
+}
+.box:before, .box:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.box:before {left: 10px;}
+.box:after {right: 10px;}
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+
+.詳細2 {
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+.詳細3 {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.案内文字 {
+    text-align: center;
+    font-size: 4vw;
+    margin: 10% 0% 5% 0%;
+}
+
+.案内図 {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.イラスト2 {
+    text-align: right;
+    margin-bottom: -3.2%;
+}
+
+footer {
+    font-size: 8px;
+    font-family: cantiga,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
